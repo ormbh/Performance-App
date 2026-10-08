@@ -1,0 +1,1 @@
+Performance App v103 offline application. Extract the entire ZIP and open index.html. SHA-256: 4c15da1a0f335194e4c27590989944cc7e857b2726c1fb3c5c5a09dfb6e476f5. Source workbook and audit examples are excluded from this proposed repository delivery. See chat for tested scope and limitations.
