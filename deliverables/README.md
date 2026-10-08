@@ -1,17 +1,27 @@
-# Performance App v104 — interface and source-reference corrections
+# Performance App v105
 
-The supplied mold is used to understand and verify calculations. The delivered app contains no source workbook records, reference-report examples, sample-file fingerprint, data-purpose selector or sample-classification banners. The embedded editable report templates were decoded and inspected: their workbook worksheets are empty and their chart caches contain neutral zero scaffolds. Generic chart/workbook templates remain necessary for native editing.
+[Download the current ZIP](https://github.com/ormbh/Performance-App/raw/refs/heads/main/deliverables/Performance-App-v105.zip). Extract the entire ZIP and open `index.html`; all assets are local. No server is required by the product. Imported data stays on the device.
 
-Navigation now separates six primary destinations from file and data-review tools. Mobile users can see the destinations without opening a mixed navigation/tools menu. Shared filters use a compact scope toolbar; the scope remains visible while controls are closed. Searchable multi-select option lists retain selections and support keyboard dismissal/focus recovery. Filter union within a field and intersection between fields are preserved.
+## Changes from v104
 
-The monthly page removes repeated date/scope blocks. Date and A4/A3 controls follow the report in a native expandable section. A quiet heading shortcut opens and focuses it, so print setup stays discoverable. Saved-history diagnostics follow report content. The test viewport showed first report cards around420px down rather than869px; this layout observation is not evidence from live-user research.
+- File name and selected calculation date move from the page heading to a shared footer. A distinct saved-source reference is shown when different. Monthly PDF pages repeat source file name and selected date alongside the existing organizational wording and copyright.
+- Strategy, council decisions and legislation share the same title, label and figure typography on desktop, mobile and paper. Long labels wrap; full notes remain intact.
+- Executive follow-up portfolios are on the right and projects on the left, matching the RTL mold. Executive content appears first on narrow screens.
+- Follow-up tables and other data sections remain visible. Filters, help and source-quality explanations can still collapse.
+- **طباعة التقرير** prints the current filtered report directly. The adjacent **إعدادات الطباعة** opens a native dialog in place. Date/layout changes persist; **حفظ الإعدادات** closes the dialog and returns focus to the print button. Escape and the close control return focus to settings without moving the page.
 
-Default report titles no longer contain a fixed2026 year. Default periods use the selected calculation cutoff instead of assuming January–September2026. Explicit custom titles and periods remain unchanged; display labels do not modify source calculations or scope.
+The v104 navigation and searchable multi-select filters are retained. Union within each filter, intersection between filters and scope consistency across screen, detail, print and CSV remain unchanged.
 
-Source rules learned from the mold remain intact: independent KPI result/target populations, explicit-state-only genuine measured zero, exact-ID duplicate quarantine, scoped export populations and full notes. No RAG thresholds or backend were introduced. Selected dates, notes, user settings and normal imported-file workflows are preserved. Retired purpose metadata and explicitly marked caches are cleared; unmarked user-imported workbooks are not guessed to be samples by name.
+## Data and reconciliation
 
-Validation covers the actual extracted ZIP, browser workflows, responsive RTL and keyboard behavior, scoped CSV, original notes/settings upgrade, monthly A4/A3 PDF and native PowerPoint structures/content. Native local-file opening, full assistive-technology certification, physical printing and interactive Windows PowerPoint editing remain not run. Detailed reports were rendered and selected pages examined, not every page read at full size.
+No supplied workbook, embedded source records, screenshot, source-filled PDF/PPTX example, sample-file fingerprint, data-purpose selector or sample-classification banner is delivered. The mold is a test reference for source fields and calculations. Neutral editable chart/workbook templates remain empty scaffolds. No RAG thresholds, server or tracking were introduced.
 
-Final ZIP SHA-256: 8140ddfba57a500cdd7758fd778fb79fb1e40be840e6c1ef2892d8d4bee6266d.
+Source totals, status complements, KPI measurement/result/target populations, exact identifier matching, missing-value handling and full notes were checked against the unchanged source reference. Genuine measured zero still requires an explicit measurement-state field. Selected calculation date, reporting period, historical cutoff and source reference retain separate meanings; unavailable history is not zero. Both v102 and v104 upgrades preserve the tested complete Arabic note and A3 setting. Keep a notes backup when moving folders or changing browser profiles because file-origin storage varies by browser.
 
-Upgrade challenge: removing the generic source fingerprint initially disconnected stored report notes. This was reproduced from an actual baseline upgrade, corrected by retaining dynamic local file identity (without any known-sample fingerprint), and rerun: full2760-character Arabic note and A3 setting preserved.
+## Verification
+
+Passed: exact ZIP CRC and manifest hashes, clean extraction, bundle consistency and actual browser startup; responsive RTL, source footers, visible tables, matched card typography, keyboard/dialog focus, date/reset, compound filters, empty results, Arabic search, scoped CSV, measurement and duplicate-ID cases, notes/settings upgrades. Generated A4 and filtered A3 PDFs were inspected for full notes, scope, pagination, column order, font equality, repeated footer visibility and no logo. A long filename was challenged to check escaping, wrapping and continuation-page visibility; a discovered footer regression was fixed before release.
+
+The unchanged PowerPoint export implementation retains native editable chart/workbook elements validated in the earlier review. Microsoft PowerPoint interactive editing was not run. Native file-opening is blocked by the managed test browser, so Windows double-click startup remains not run. Physical printing, full screen-reader certification and live user research also remain not run. Detailed report pages were sampled in the earlier review rather than every page independently read at full size.
+
+Final ZIP SHA-256: `4021e6875a305033aaef11aa5788dd43f86cff3d5f35b7596ae5f3c31087b6ac`.
