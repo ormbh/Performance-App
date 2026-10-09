@@ -1,13 +1,13 @@
-# Performance App v112
+# Performance App v114
 
-[Download v112 ZIP](./Performance-App-v112.zip?raw=true). Extract the complete ZIP and open `index.html`. All assets remain local; the app needs no server or installation.
+[Download v114 ZIP](./Performance-App-v114.zip?raw=true). Extract the complete ZIP and open `index.html`. All assets remain local; the app needs no server or installation.
 
-The upload header now matches the compact header used throughout the app. Filename, calculation date and copyright share one desktop footer row; narrow screens wrap complete text. Separate quarter boxes restore their original beige fill on screen and monthly print. Footer labels have improved contrast.
+This release includes the six approved exact record connections introduced in v113. All required key parts must be present. Incomplete or duplicated complete keys remain unresolved without deleting records or inventing identifiers. The app reads `Source.Name` from an actual source column.
 
-Data validation recognizes the same approved organization aliases as the filters. All filter menus were checked for duplicate visible choices, searchable multi-select, a single scroll area and correct scope. Raw records, full notes, identifiers, classifications, calculations and selected-date behavior remain unchanged. Unknown values and genuine source issues remain visible.
+v114 wraps long row-reference lists within the desktop Data Notes table so its problem, value and proposed-fix columns remain visible. The mobile labelled-row layout, complete note content, calculations, filters and selected-date behavior are preserved.
 
-The latest supplied mold has missing titles and some stale formula caches. Its complete executive totals cannot yet be verified. A scoped source-completeness notice explains their effect, and the data-review page distinguishes observations from affected records. No sample records, workbooks, private audit files or source-filled reports ship.
+Independent exact-package checks passed for desktop/mobile layout, source import, exact connections, keyboard controls, compound filters, calculation-date reset, CSV preservation, local assets and package integrity. Known issues remain under review: the affected-record caption misses some grouped observations, and some portfolio checks skip rows with blank titles. This is a focused release, not a full-production readiness verdict.
 
-[Changes, reconciliation and verification limits](./VERIFICATION-v112.md). Native file opening/Windows, interactive Office, physical printing/devices, Power Query refresh and full assistive-technology certification remain not run.
+No sample records, workbooks, private audit files or source-filled reports ship. Native file opening was blocked by the managed browser policy. Native browser zoom, a real monthly source pair, PDF/PowerPoint inspection and Excel/Power Query refresh were not run in this focused verification. Earlier verification is retained in this folder for historical context.
 
-ZIP SHA-256: `12456734a6db0509b0155efd9e8c8b6848d171f081db91debbb9aefbd46318d7`.
+ZIP SHA-256: `1915522e50dcb7969549bb280f551c4413e9b1d35cdef809d248a17b57676300`.
