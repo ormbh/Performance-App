@@ -1,13 +1,13 @@
-# Performance App v111
+# Performance App v112
 
-[Download v111 ZIP](./Performance-App-v111.zip?raw=true). Extract the complete ZIP and open `index.html`. All assets remain local; no server or installation is required.
+[Download v112 ZIP](./Performance-App-v112.zip?raw=true). Extract the complete ZIP and open `index.html`. All assets remain local; the app needs no server or installation.
 
-One shared footer now uses **الأمانة العامة للمجلس التنفيذي لإمارة دبي حقوق النشر © 2026 · جميع الحقوق محفوظة** throughout the app and browser-printed reports. It stays at the viewport bottom on short pages and after content on long pages, with no overlay. Source metadata stays on screen; copyright year stays separate from the selected calculation year.
+The upload header now matches the compact header used throughout the app. Filename, calculation date and copyright share one desktop footer row; narrow screens wrap complete text. Separate quarter boxes restore their original beige fill on screen and monthly print. Footer labels have improved contrast.
 
-The legislation note names the SLC, extension and legislation-department deadlines. The existing mold compares actual completion against each available date independently; an extension does not replace earlier dates. Council population text sits at bottom-left beside the unknown-status note on the right. Each quarter has its own box; dates, counts, changes and full notes remain intact.
+Data validation recognizes the same approved organization aliases as the filters. All filter menus were checked for duplicate visible choices, searchable multi-select, a single scroll area and correct scope. Raw records, full notes, identifiers, classifications, calculations and selected-date behavior remain unchanged. Unknown values and genuine source issues remain visible.
 
-The v110 six-sector/23-unit filters, known aliases, searchable multi-select with one scrollbar, visible tables, zero dashes, full notes and previous report corrections are retained. No sample records, workbooks or source-filled reports ship. [Changes, date basis, reconciliation and verification limits](./VERIFICATION-v111.md).
+The latest supplied mold has missing titles and some stale formula caches. Its complete executive totals cannot yet be verified. A scoped source-completeness notice explains their effect, and the data-review page distinguishes observations from affected records. No sample records, workbooks, private audit files or source-filled reports ship.
 
-Independent final-ZIP verification passed: integrity/startup/import/recovery, focused browser routes/layouts, quarter/drill/date journeys, compound filters, source/CSV regression, monthly A4 two-page/A3 one-page outputs and legal footers on all 161 pages of eight representative browser reports. Native Windows file opening, interactive Office, physical-device/printing and full assistive-technology checks remain not run.
+[Changes, reconciliation and verification limits](./VERIFICATION-v112.md). Native file opening/Windows, interactive Office, physical printing/devices, Power Query refresh and full assistive-technology certification remain not run.
 
-ZIP SHA-256: `581296007bff1a6ecc033c13ff5ec72184d3c537c8903fafa1ee3acc59f3e8fe`.
+ZIP SHA-256: `12456734a6db0509b0155efd9e8c8b6848d171f081db91debbb9aefbd46318d7`.
