@@ -1,15 +1,13 @@
-# Performance App v108
+# Performance App v109
 
-[Download v108 ZIP](./Performance-App-v108.zip?raw=true). Extract the whole ZIP and open `index.html`. All assets remain local; no server or installation is required.
+[Download v109 ZIP](./Performance-App-v109.zip?raw=true). Extract the complete ZIP and open `index.html`. All assets remain local; no server or installation is required.
 
-Equivalent invisible-character and spacing variants now appear as one filter option across the app. Selecting that option includes every matching source token. Search, multi-select, blank values, saved partial selections and union/intersection rules are retained; only the option list scrolls, and it resizes when search changes. The operational screenshot workbook was not supplied, so its specific source cause is not claimed as confirmed.
+The source footer now sits at the viewport bottom on short pages and after all content on long pages. It keeps the complete filename, selected calculation date and separate source reference, and does not cover content. Derived project overdue labels consistently read **متأخر** across overview, filters/drills, PMO and reports.
 
-Navigation now reads **محفظة المشاريع**. Zero metric readings show **-**; numeric source values, exports, chart workbooks, measurement states and calculations remain unchanged. Missing readings remain an em dash; unchanged movement stays blank. The strategy card omits the unmeasured-count line. The legislation card explains **تجاوز الموعد** at its bottom right: **أُنجز بعد أحد المواعيد المسجّلة في الملف.** Native pie exports show editable counts/percentages in the legend to avoid overlapping slice labels.
+The legislation note is clearer: **تجاوز الموعد: تشريعات أُنجزت بعد الموعد المحدد للإنجاز.** This remains the completed-after-deadline population, separate from unfinished **متأخر**; dates/calculation rules are unchanged. The monthly follow-up summary removes **المسؤول** on screen and print, giving notes more space. Owner fields remain in source records, search and full details.
 
-The previous print/navigation corrections remain: visible tables, direct print with adjacent settings, source details at the screen footer, monthly printed organization/copyright only, and same-tab **عرض جميع البنود**. The portfolio overview retains imported sector/unit hierarchy and the existing strategic-budget Projects population. Combining portfolios and mapping five source sectors to the illustrative three-sector reference remain outstanding business decisions; unsupported measures remain unavailable.
+Searchable multi-select, grouped aliases, visible tables, zero dashes, full notes, print/settings workflow and the previous report corrections are retained. No sample records, workbooks or source-filled reports ship. [Changes, reconciliation and verification limits](./VERIFICATION-v109.md).
 
-No sample records, workbooks, screenshots or source-filled reports are included. The mold is private test input, not organizational performance. [Changes, reconciliation and passed/failed/not-run checks](./VERIFICATION-v108.md).
+Passed: independent exact-ZIP integrity, browser/import/recovery, source/CSV regression, compound filters and actual A4/A3/portfolio/detail PDF inspection. Native Windows file opening, interactive Office, physical-device/printing and full assistive-technology checks remain not run.
 
-Passed: independent exact-ZIP integrity, import/recovery, filters, data/CSV regression and actual PDF/native-PPTX inspection. Not run: native Windows file opening, interactive Microsoft PowerPoint editing, physical printing/devices, full screen-reader certification and Power Query refresh.
-
-Final ZIP SHA-256: `652082f06ee476474a5a606f235a3e66cf46d3481032b33fd0d7d70f39d6480f`.
+Final ZIP SHA-256: `e02920177e4a8155a7f7bd2c18e0acf9bc505f8a2ac2bf77609777d7d83f78e6`.
