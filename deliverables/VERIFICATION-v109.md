@@ -25,10 +25,10 @@ All 637 private mold records, exact identifiers, typed fields, original referenc
 
 | Check | Result | Evidence / practical limit |
 |---|---|---|
-| Short/long screen footer | Passed | Actual desktop/mobile/short/zoomed layouts; source footer at viewport/document bottom, final DOM child, full filename/date, no overlay or horizontal overflow |
+| Short/long screen footer | Passed | Actual desktop/mobile/short layouts and reduced viewport widths equivalent to 200% zoom; source footer at viewport/document bottom, final DOM child, full filename/date, no overlay or horizontal overflow |
 | Project labels and dates | Passed | Explicit private past full-date scenario yields one overdue record; heading متأخر and exact drill population. Original month-only date behavior retained |
 | Monthly follow-up summary | Passed | Five columns, all 8 rows/full notes; detail retains owner; table fits desktop/mobile |
-| Source/calculation/CSV regression | Passed | Source, derived calculations, monthly/KPI/portfolio/follow-up data and actual CSV agree with frozen v108 at 3 selected dates |
+| Source/calculation/CSV regression | Passed | Source, derived calculations, monthly/KPI/portfolio/follow-up data and actual CSV agree with frozen v108 in three runs (original cutoff, selected September cutoff and January), covering two distinct effective dates |
 | Actual generated PDF | Passed | Exact monthly A4 2 pages/A3 1 landscape page; all 8 rows/5 columns/full notes; clear note, RTL, no clipping, no metadata/logo. Portfolio 7 pages and overdue detail 1 page visually inspected; labels/full content retained |
 | Frozen ZIP / clean extraction / startup | Passed | All 116 archive files match clean extraction; all 115 manifest hashes pass; no test/source outputs shipped. Empty startup, import, reload and malformed rejection preserve notes/settings |
 | Bundle/syntax | Passed | 45 CSS/45 JS source bundle inputs and 49 JavaScript syntax checks |
