@@ -1,13 +1,13 @@
-# Performance App v114
+# Performance App v115
 
-[Download v114 ZIP](./Performance-App-v114.zip?raw=true). Extract the complete ZIP and open `index.html`. All assets remain local; the app needs no server or installation.
+[Download v115 ZIP](./Performance-App-v115.zip?raw=true). Extract the complete ZIP and open `index.html`. All assets are local; the app requires no server or installation.
 
-This release includes the six approved exact record connections introduced in v113. All required key parts must be present. Incomplete or duplicated complete keys remain unresolved without deleting records or inventing identifiers. The app reads `Source.Name` from an actual source column.
+**مستجدات محفظة المشاريع** now follows the monthly dashboard's cards and visible tables. It covers project counts and budgets by sector/unit, delivery/status/progress and quarters, source finance fields, project managers, and priority/type distributions. A visible issues-and-notes table retains complete source content, including in its drilldown and printed report. The generic execution-overview heading is removed.
 
-v114 wraps long row-reference lists within the desktop Data Notes table so its problem, value and proposed-fix columns remain visible. The mobile labelled-row layout, complete note content, calculations, filters and selected-date behavior are preserved.
+All five areas use the same searchable multi-select filters, including the native project-manager field. Valid historical changes show up/down arrows; unchanged indicators stay blank. Exact approved connections, confirmed snapshot dates and numeric coverage prevent invented previous values or comparisons of incomplete sums. Source statuses agree with the monthly mold; date-based delay rules and selected calculation-date behavior remain intact.
 
-Independent exact-package checks passed for desktop/mobile layout, source import, exact connections, keyboard controls, compound filters, calculation-date reset, CSV preservation, local assets and package integrity. Known issues remain under review: the affected-record caption misses some grouped observations, and some portfolio checks skip rows with blank titles. This is a focused release, not a full-production readiness verdict.
+Independent data and browser checks passed for source arithmetic, missing values, renamed sheets, exact matching, filters, keyboard/focus, responsive layout, import failure recovery and scope preservation. Actual portfolio, filtered, issue-drill, record-detail and monthly regression PDFs were visually inspected. Short print cards share pages; long tables repeat headers and complete notes flow across pages. The exact ZIP passed independent CRC, manifest, clean-extraction and startup/settings checks, plus regenerated PDF inspection. See [verification and source-to-report definitions](./VERIFICATION-v115.md).
 
-No sample records, workbooks, private audit files or source-filled reports ship. Native file opening was blocked by the managed browser policy. Native browser zoom, a real monthly source pair, PDF/PowerPoint inspection and Excel/Power Query refresh were not run in this focused verification. Earlier verification is retained in this folder for historical context.
+No imported data, sample records, source workbooks, private audit files or source-filled reports ship. Empty structural chart workbooks remain inside unchanged native report templates. Native file opening was blocked by the managed browser policy; physical printing, full screen-reader certification, Office interactive editing and Excel/Power Query refresh were not run. Existing blank-title eligibility and Data Notes counting/validation decisions remain under review, so this is not unconditional production readiness.
 
-ZIP SHA-256: `1915522e50dcb7969549bb280f551c4413e9b1d35cdef809d248a17b57676300`.
+ZIP SHA-256: `8f9109929ab79cbe8b9f8be130ba943be0950ef0e15e88ead742e50b4710df6c`.
