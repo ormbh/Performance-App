@@ -1,13 +1,11 @@
-# Performance App v116
+# Performance App v117
 
-[Download v116 ZIP](./Performance-App-v116.zip?raw=true). Extract the complete ZIP and open `index.html`. All assets are local; no installation or server is required.
+[Download v117 ZIP](./Performance-App-v117.zip?raw=true). Extract the complete ZIP and open `index.html`. All assets are local; the app requires no installation or server.
 
-Approved Concept B is implemented in **مستجدات محفظة المشاريع**: one sector/department hierarchy with counts and budgets, delivery/status/progress and beige quarters, six financial readings, manager workload charts, one combined type/priority area, and a visible table of issues with full notes. Chart rows keep both counts and budgets visible; the Count/Budget switch changes only the bar scale.
+The projects portfolio is simplified as requested: the planned-open-project deadline panel and sector/unit completion table are removed. Charts use a fixed project-count scale, with counts and budgets together and no scale toggle or numeric axis annotations. The finance card omits the specified coverage and explanatory text while retaining source calculations. The manager list becomes a count of distinct recorded text names in the same scope; empty and invalid cells do not count. An unresolved-status row appears only for a nonzero or unavailable value.
 
-Shared searchable multi-select filters, exact contributor drills, keyboard return, selected calculation dates and genuine historical arrows remain consistent across the screen and print. Managers show assigned/open work and upcoming or overdue dates without a competence ranking. Each manager's name and readings stay together in print; long source notes can continue across pages with repeated headers.
+Shared searchable multi-select filters, genuine up/down changes, selected dates, beige quarter boxes, exact contributor drills, complete issue notes and scoped printing remain. Manager names in source issue records and notes are preserved; no names are listed in the manager summary card.
 
-Independent source arithmetic, browser, keyboard, RTL and actual generated-page checks passed. The exact ZIP also passed clean-extraction, asset, startup/settings, import, manager-association and regenerated PDF checks. See [before/after evidence, source-to-report definitions and test results](./VERIFICATION-v116.md).
+Independent source/model, browser, keyboard, RTL and generated-PDF checks passed. The exact clean ZIP passed integrity, assets, startup/storage, import/filter/manager-count and regenerated-page checks. See [changes, calculation definitions and verification results](./VERIFICATION-v117.md). Native file opening is not run because managed browser policy blocks file URLs. Original uploads remain unchanged. No imported records, samples, source workbooks or private test evidence ship; unchanged native templates retain their empty structural chart workbooks.
 
-No imported data, sample records, source workbooks, private fixtures or source-filled reports ship. Unchanged native templates retain their empty structural chart workbooks. Native file opening is not run because managed browser policy blocks file URLs; remaining checks and source/business-definition gaps are recorded in the verification document.
-
-ZIP SHA-256: `832765724b3f62771e62a0d7284b1df2ba47166e8f33f5fad108447a755daf78`.
+ZIP SHA-256: `9c8646a38ec55cf025aee82056f4c763b03a1ed723ccb6a465994e0977547fa6`.
