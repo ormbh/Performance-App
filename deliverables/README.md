@@ -1,13 +1,13 @@
-# Performance App v115
+# Performance App v116
 
-[Download v115 ZIP](./Performance-App-v115.zip?raw=true). Extract the complete ZIP and open `index.html`. All assets are local; the app requires no server or installation.
+[Download v116 ZIP](./Performance-App-v116.zip?raw=true). Extract the complete ZIP and open `index.html`. All assets are local; no installation or server is required.
 
-**مستجدات محفظة المشاريع** now follows the monthly dashboard's cards and visible tables. It covers project counts and budgets by sector/unit, delivery/status/progress and quarters, source finance fields, project managers, and priority/type distributions. A visible issues-and-notes table retains complete source content, including in its drilldown and printed report. The generic execution-overview heading is removed.
+Approved Concept B is implemented in **مستجدات محفظة المشاريع**: one sector/department hierarchy with counts and budgets, delivery/status/progress and beige quarters, six financial readings, manager workload charts, one combined type/priority area, and a visible table of issues with full notes. Chart rows keep both counts and budgets visible; the Count/Budget switch changes only the bar scale.
 
-All five areas use the same searchable multi-select filters, including the native project-manager field. Valid historical changes show up/down arrows; unchanged indicators stay blank. Exact approved connections, confirmed snapshot dates and numeric coverage prevent invented previous values or comparisons of incomplete sums. Source statuses agree with the monthly mold; date-based delay rules and selected calculation-date behavior remain intact.
+Shared searchable multi-select filters, exact contributor drills, keyboard return, selected calculation dates and genuine historical arrows remain consistent across the screen and print. Managers show assigned/open work and upcoming or overdue dates without a competence ranking. Each manager's name and readings stay together in print; long source notes can continue across pages with repeated headers.
 
-Independent data and browser checks passed for source arithmetic, missing values, renamed sheets, exact matching, filters, keyboard/focus, responsive layout, import failure recovery and scope preservation. Actual portfolio, filtered, issue-drill, record-detail and monthly regression PDFs were visually inspected. Short print cards share pages; long tables repeat headers and complete notes flow across pages. The exact ZIP passed independent CRC, manifest, clean-extraction and startup/settings checks, plus regenerated PDF inspection. See [verification and source-to-report definitions](./VERIFICATION-v115.md).
+Independent source arithmetic, browser, keyboard, RTL and actual generated-page checks passed. The exact ZIP also passed clean-extraction, asset, startup/settings, import, manager-association and regenerated PDF checks. See [before/after evidence, source-to-report definitions and test results](./VERIFICATION-v116.md).
 
-No imported data, sample records, source workbooks, private audit files or source-filled reports ship. Empty structural chart workbooks remain inside unchanged native report templates. Native file opening was blocked by the managed browser policy; physical printing, full screen-reader certification, Office interactive editing and Excel/Power Query refresh were not run. Existing blank-title eligibility and Data Notes counting/validation decisions remain under review, so this is not unconditional production readiness.
+No imported data, sample records, source workbooks, private fixtures or source-filled reports ship. Unchanged native templates retain their empty structural chart workbooks. Native file opening is not run because managed browser policy blocks file URLs; remaining checks and source/business-definition gaps are recorded in the verification document.
 
-ZIP SHA-256: `8f9109929ab79cbe8b9f8be130ba943be0950ef0e15e88ead742e50b4710df6c`.
+ZIP SHA-256: `832765724b3f62771e62a0d7284b1df2ba47166e8f33f5fad108447a755daf78`.
